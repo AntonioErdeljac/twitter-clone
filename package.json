@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "postinstall": "prisma generate",
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.5",
     "@prisma/client": "^4.11.0",
